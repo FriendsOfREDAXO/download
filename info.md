@@ -1,6 +1,3 @@
-Download Utility
-----------------
-
 `Dieses AddOn schickt eine beliebige Datei aus dem Medienpool als Force-Download in den Browser.`
 Damit das AddOn funktioniert, muss folgende Zeile in die .htaccess:
 <br>

@@ -1,0 +1,10 @@
+download_title = Downloader
+
+download_information = Informationen
+download_config = Einstellungen
+download_config_save = Einstellungen speichern
+download_config_saved = Einstellungen wurden gespeichert!
+download_send_as_http_file = Download über X-SendFile / X-Accel-Redirect<br>(Apache oder nginx Modul vorausgesetzt)
+
+# Benennung für die Addonrechte, sichtbar innerhalb der REDAXO-Administration unter Benutzer > Rollen > Allgemein
+perm_general_download[] = Rechte für Downloader Konfiguration

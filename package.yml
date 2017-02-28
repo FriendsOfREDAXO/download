@@ -1,0 +1,14 @@
+package: download
+version: '1.0.0-beta1'
+author: Hirbod Mirjavadi, nightstomp / FriendsOfREDAXO
+supportpage: https://github.com/FriendsOfREDAXO/download
+
+requires:
+    packages:
+        yrewrite: '^2.0.0'
+    redaxo: '^5.2.0'
+
+pages:
+    yrewrite/download:
+        title: translate:title
+        perm: download[]

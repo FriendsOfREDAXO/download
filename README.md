@@ -9,7 +9,7 @@ Damit das AddOn funktioniert, muss folgende Zeile in die .htaccess:
 RewriteRule ^download[s]?/([^/]*) index.php?download_utility=download&file=$1 [NC,L]
 ```
 
-Platzier es bitte über oder unter (die Zeile gibt es nur, wenn die die YRewrite .htaccess nutzt)
+Platzier es bitte über oder unter (die Zeile gibt es nur, wenn du die YRewrite .htaccess nutzt)
 ```
 # REWRITE RULE FOR SEO FRIENDLY IMAGE MANAGER URLS
 ```

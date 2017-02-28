@@ -1,7 +1,7 @@
 Download Utility
 ----------------
 
-`Dieses AddOn schickt eine beliebige Datei aus dem Medienpool als Force-Download in den Browser.`
+Dieses AddOn schickt eine beliebige Datei aus dem Medienpool als Force-Download in den Browser.
 Damit das AddOn funktioniert, muss folgende Zeile in die .htaccess:
 <br>
 ```htaccess
@@ -18,9 +18,9 @@ Falls du `nginx` nutzt, musst du folgendes in deine Config packen:
 ```htaccess
 rewrite ^/download[s]?/([^/]*) /index.php?download_utility=download&file=$1 last;
 ```
-<br>
-**Wie komm ich an die Downloadlinks?**
 
+Wie komm ich an die Downloadlinks?
+---------------------------------------
 
 ```php
 <?php
@@ -30,16 +30,18 @@ rewrite ^/download[s]?/([^/]*) /index.php?download_utility=download&file=$1 last
     // Falls rewrite auf false steht: index.php?download_utility=download&file=dateiname.jpg
 ?>
 ```
-<br>
-**X-Send was???**
-<br>
+
+X-Send was???
+---------------
+
 Wenn dir
 
 * X-SendFile
 * X-Accel-Redirect
 
 keine Begriffe sind, solltest du die Einstellung oben nicht aktivieren, denn der Download wird höchstwahrscheinlich nicht funktionieren. X-Send ist ein Apache / nginx / Lighttpd Mod, um (große) Dateien direkt über den Server abzuwickeln. Dieses Modul ist normalerweise nirgendswo per Default aktiv und nur für spezielle Umgebungen gedacht. Falls du dich damit auskennst und sicher bist, dass die Module aktiv sind, kannst du die Checkbox aktivieren, ansonsten lass sie bitte deaktiviert. Im deaktivierten Zustand werden die Dateien wie gewohnt über PHP ausgeliefert.
-<br>
+
+
 Falls die Mods installiert sind, muss folgendes in deine .htaccess (oder Apache/Nginx Conf):
 
 ```

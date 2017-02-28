@@ -48,3 +48,28 @@ Falls die Mods installiert sind, muss folgendes in deine .htaccess (oder Apache/
 XSendFile On
 XSendFilePath /absoluter/pfad/bis/media
 ```
+
+Settingspage
+------------
+Die Settingspage integriert sich als Tab-Reiter innerhalb des AddOns YRewrite mit dem Titel "Download".
+
+Installation
+------------
+Hinweis: dies ist kein Plugin!
+
+* Release herunterladen und entpacken.
+* Ordner umbenennen in `download`.
+* In den Addons-Ordner legen: `/redaxo/src/addons`.
+
+Oder den REDAXO-Installer / ZIP-Upload AddOn nutzen!
+
+Voraussetzungen
+------------
+
+* YRewrite AddOn
+* mod_rewrite / nginx rewrite
+
+
+Thanks
+----
+* @RexDude für ein paar Zeilen Code aus dem SEO42 AddOn

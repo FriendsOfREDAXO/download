@@ -45,15 +45,7 @@ class DownloadUtility
                     header('X-Sendfile: '.$fileWithPath); //  Apache webserver
                     header('X-Accel-Redirect: '.$fileWithPath); // Nginx webserver
                 } else {
-                    header('Content-Description: File Transfer');
-                    header('Content-Type: application/octet-stream');
-                    header('Content-Disposition: attachment; filename='.$file);
-                    header('Expires: 0');
-                    header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
-                    header('Pragma: public');
-                    header('Content-Length: '.filesize($fileWithPath));
-
-                    readfile($fileWithPath);
+                    rex_response::sendFile($fileWithPath, $contenttype = 'application/octet-stream', $contentDisposition = 'attachment');
                 }
                 exit;
             }

@@ -5,10 +5,10 @@ supportpage: https://github.com/FriendsOfREDAXO/download
 
 requires:
     packages:
-        yrewrite: '^2.0.0'
+        media_manager: '^2.0.0'
     redaxo: '^5.2.0'
 
 pages:
-    yrewrite/download:
+    media_manager/download:
         title: translate:title
         perm: download[]

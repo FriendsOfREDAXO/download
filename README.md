@@ -51,7 +51,7 @@ XSendFilePath /absoluter/pfad/bis/media
 
 Settingspage
 ------------
-Die Settingspage integriert sich als Tab-Reiter innerhalb des AddOns YRewrite mit dem Titel "Download".
+Die Settingspage integriert sich als Tab-Reiter innerhalb des AddOns `Media Manager` mit dem Titel "Download".
 
 Installation
 ------------
@@ -66,10 +66,5 @@ Oder den REDAXO-Installer / ZIP-Upload AddOn nutzen!
 Voraussetzungen
 ------------
 
-* YRewrite AddOn
-* mod_rewrite / nginx rewrite
-
-
-Thanks
-----
-* @RexDude für ein paar Zeilen Code aus dem SEO42 AddOn
+* media_manager AddOn
+* mod_rewrite, falls die htaccess Lösung genutzt werden soll

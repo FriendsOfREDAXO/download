@@ -1,6 +1,6 @@
 package: download
 version: '1.0.0-beta1'
-author: Hirbod Mirjavadi, nightstomp / FriendsOfREDAXO
+author: FriendsOfREDAXO
 supportpage: https://github.com/FriendsOfREDAXO/download
 
 requires:

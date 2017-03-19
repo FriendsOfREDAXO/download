@@ -13,7 +13,8 @@ Platzier es bitte über oder unter (die Zeile gibt es nur, wenn du die YRewrite 
 ```
 # REWRITE RULE FOR SEO FRIENDLY IMAGE MANAGER URLS
 ```
-<br>
+
+
 Falls du `nginx` nutzt, musst du folgendes in deine Config packen:<br>
 ```htaccess
 rewrite ^/download[s]?/([^/]*) /index.php?download_utility=download&file=$1 last;

@@ -1,0 +1,10 @@
+download_title = Downloader
+
+download_information = Informazioni
+download_config = Impostazioni
+download_config_save = Salva impostazioni
+download_config_saved = Impostazioni salvate!
+download_send_as_http_file = 
+
+# Benennung für die Addonrechte, sichtbar innerhalb der REDAXO-Administration unter Benutzer > Rollen > Allgemein
+perm_general_download[] = Permessi per l'impostazione del Downloader

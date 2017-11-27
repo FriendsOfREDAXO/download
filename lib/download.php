@@ -12,7 +12,7 @@ class DownloadUtility
     public static function getDownloadFile($filename = '', $rewrite = true)
     {
         if ($rewrite) {
-            $link = '/download/'.$filename;
+            $link = rex_url::base() . download/'.$filename;
         } else {
             $link = 'index.php?download_utility=download&file='.$filename;
         }

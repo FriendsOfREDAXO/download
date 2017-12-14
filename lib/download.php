@@ -11,6 +11,9 @@ class DownloadUtility
 {
     public static function getDownloadFile($filename = '', $rewrite = true)
     {
+        // prevent path traversal
+        $filename = basename($filename);
+        
         if ($rewrite) {
             $link = rex_url::base() . download/'.$filename;
         } else {

@@ -15,7 +15,7 @@ class DownloadUtility
         $filename = basename($filename);
         
         if ($rewrite) {
-            $link = rex_url::base() . download/'.$filename;
+            $link = rex_url::base() . 'download/'.$filename;
         } else {
             $link = 'index.php?download_utility=download&file='.$filename;
         }
